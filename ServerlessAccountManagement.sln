@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35913.81 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessAccountManagement", "ServerlessAccountManagement\ServerlessAccountManagement.csproj", "{2B2A6D58-7F4C-2D67-3A13-BCBBB7BC5279}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessAccountManagement.AppHost", "ServerlessAccountManagement.AppHost\ServerlessAccountManagement.AppHost.csproj", "{2471ECDB-5493-4B5F-8175-2167763AEE06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessAccountManagement.ServiceDefaults", "ServerlessAccountManagement.ServiceDefaults\ServerlessAccountManagement.ServiceDefaults.csproj", "{80C47AFF-4355-4193-BD8E-EC17D145EBFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessAccountManagement.Model", "ServerlessAccountManagement.Model\ServerlessAccountManagement.Model.csproj", "{C5C79296-3B59-4A2D-9812-FCC03A84E84F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerlessAccountManagement.E2E.Tests", "ServerlessAccountManagement.E2E.Tests\ServerlessAccountManagement.E2E.Tests.csproj", "{319416F9-3830-4098-8DAA-0A34CD175B53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B2A6D58-7F4C-2D67-3A13-BCBBB7BC5279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B2A6D58-7F4C-2D67-3A13-BCBBB7BC5279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B2A6D58-7F4C-2D67-3A13-BCBBB7BC5279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B2A6D58-7F4C-2D67-3A13-BCBBB7BC5279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2471ECDB-5493-4B5F-8175-2167763AEE06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2471ECDB-5493-4B5F-8175-2167763AEE06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2471ECDB-5493-4B5F-8175-2167763AEE06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2471ECDB-5493-4B5F-8175-2167763AEE06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80C47AFF-4355-4193-BD8E-EC17D145EBFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80C47AFF-4355-4193-BD8E-EC17D145EBFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80C47AFF-4355-4193-BD8E-EC17D145EBFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80C47AFF-4355-4193-BD8E-EC17D145EBFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5C79296-3B59-4A2D-9812-FCC03A84E84F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5C79296-3B59-4A2D-9812-FCC03A84E84F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5C79296-3B59-4A2D-9812-FCC03A84E84F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5C79296-3B59-4A2D-9812-FCC03A84E84F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{319416F9-3830-4098-8DAA-0A34CD175B53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{319416F9-3830-4098-8DAA-0A34CD175B53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{319416F9-3830-4098-8DAA-0A34CD175B53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{319416F9-3830-4098-8DAA-0A34CD175B53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DA44BB4-4281-416C-AD40-D670B3E6EFA0}
+	EndGlobalSection
+EndGlobal
