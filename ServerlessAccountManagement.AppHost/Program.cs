@@ -6,7 +6,7 @@ using Aspire.Hosting;
 
 var builder = DistributedApplication.CreateBuilder(args);
 
-var cache = builder.AddRedis("cache");
+var cache = builder.AddRedis("cache").WithRedisCommander(); 
 
 #region DynamoDB Setup
 var dynamoDbLocal = builder.AddAWSDynamoDBLocal("DynamoDBAccounts");
